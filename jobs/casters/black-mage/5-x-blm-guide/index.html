@@ -4,15 +4,18 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <meta itemprop=name content="5.X BLM Guide">
-<meta itemprop=description content="Table of contents  General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc.  General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc. ">
-<meta itemprop=wordCount content="55">
+<meta itemprop=description content="Last updated: October 26, 2019
+ General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc.  My IGN is Caro Kann, and I’m a BLM main (now SCH (AND NOW AST) :pepega:) and this is my guide for playing 5.X BLM. In this guide, I go over the basics of the BLM rotation and offer some potential optimizations.">
+<meta itemprop=wordCount content="218">
 <meta itemprop=keywords content><meta property="og:title" content="5.X BLM Guide">
-<meta property="og:description" content="Table of contents  General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc.  General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc. ">
+<meta property="og:description" content="Last updated: October 26, 2019
+ General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc.  My IGN is Caro Kann, and I’m a BLM main (now SCH (AND NOW AST) :pepega:) and this is my guide for playing 5.X BLM. In this guide, I go over the basics of the BLM rotation and offer some potential optimizations.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://guides.xivresources.com/jobs/casters/black-mage/5-x-blm-guide/"><meta property="article:section" content="jobs">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="5.X BLM Guide">
-<meta name=twitter:description content="Table of contents  General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc.  General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc. ">
+<meta name=twitter:description content="Last updated: October 26, 2019
+ General Info Openers Single Target Rotation Recovery and Reopeners AoE Rotation (3+ Targets) Movement and Uptime Spell Speed Thresholds Leveling Rotations Macros About Gear Appendix Misc.  My IGN is Caro Kann, and I’m a BLM main (now SCH (AND NOW AST) :pepega:) and this is my guide for playing 5.X BLM. In this guide, I go over the basics of the BLM rotation and offer some potential optimizations.">
 <link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
@@ -44,7 +47,7 @@
 <main class="site-main section-inner thin animated fadeIn faster">
 <h1>5.X BLM Guide</h1>
 <div class=content>
-<h1 id=table-of-contents>Table of contents<a href=#table-of-contents class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<p>Last updated: October 26, 2019</p>
 <ol>
 <li><a href=#general-info>General Info</a></li>
 <li><a href=#openers>Openers</a></li>
@@ -59,18 +62,40 @@
 <li><a href=#appendix>Appendix</a></li>
 <li><a href=#misc>Misc.</a></li>
 </ol>
-<h2 id=general-info>General Info<a href=#general-info class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=openers>Openers<a href=#openers class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=single-target-rotation>Single Target Rotation<a href=#single-target-rotation class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=recovery-and-reopeners>Recovery and Reopeners<a href=#recovery-and-reopeners class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=aoe-rotation-3-targets>AoE Rotation (3+ Targets)<a href=#aoe-rotation-3-targets class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=movement-and-uptime>Movement and Uptime<a href=#movement-and-uptime class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=spell-speed-thresholds>Spell Speed Thresholds<a href=#spell-speed-thresholds class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=leveling-rotations>Leveling Rotations<a href=#leveling-rotations class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=macros>Macros<a href=#macros class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=about-gear>About Gear<a href=#about-gear class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=appendix>Appendix<a href=#appendix class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
-<h2 id=misc>Misc.<a href=#misc class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
+<p>My IGN is Caro Kann, and I’m a BLM main (now SCH (AND NOW AST) :pepega:) and this is my guide for playing 5.X BLM. In this guide, I go over the basics of the BLM rotation and offer some potential optimizations.</p>
+<p><img src=/img/explosion.gif alt></p>
+<h1 id=general-info>General Info<a href=#general-info class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<hr>
+<h2 id=abilities>Abilities<a href=#abilities class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
+<p>If you’re in game, look at your Actions & Traits page. Read your tooltips. Read your traits, they alter tooltips sometimes. If you’re not in game, look at SE’s <a href=http://na.finalfantasyxiv.com/jobguide/blackmage/>Job Guide</a> page.</p>
+<h2 id=abbreviations>Abbreviations<a href=#abbreviations class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
+<ul>
+<li><strong>F1, F2, F3, F4</strong>: Fire Spells</li>
+<li><strong>F3P</strong>: Firestarter (F3 Proc)</li>
+<li><strong>B1, B3, B4</strong>: Blizzard Spells</li>
+<li><strong>T3, T4</strong>: Thunder Spells</li>
+<li><strong>T3P, T4P, TC</strong>: T3 Proc, T4 Proc, Thundercloud</li>
+<li><strong>AF, UI</strong>: Astral Fire and Umbral Ice buffs. The number refers to how many stacks</li>
+<li><strong>LL</strong>: Ley Lines.</li>
+<li><strong>GCD, oGCD</strong>: Global Cooldown (Spells), off-Global Cooldown (Abilities)</li>
+<li><strong>SpS</strong>: Spell Speed</li>
+<li><strong>AM / BtL</strong>: Aetherial Manipulation and Between the Lines</li>
+<li><strong>MF</strong>: Manafont</li>
+<li><strong>DoT</strong>: Damage over Time</li>
+<li><strong>DPS / PPS</strong>: Damage Per Second and Potency Per Second</li>
+<li><strong>Instant</strong>: An instant-cast Spell</li>
+</ul>
+<h1 id=openers>Openers<a href=#openers class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=single-target-rotation>Single Target Rotation<a href=#single-target-rotation class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=recovery-and-reopeners>Recovery and Reopeners<a href=#recovery-and-reopeners class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=aoe-rotation-3-targets>AoE Rotation (3+ Targets)<a href=#aoe-rotation-3-targets class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=movement-and-uptime>Movement and Uptime<a href=#movement-and-uptime class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=spell-speed-thresholds>Spell Speed Thresholds<a href=#spell-speed-thresholds class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=leveling-rotations>Leveling Rotations<a href=#leveling-rotations class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=macros>Macros<a href=#macros class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=about-gear>About Gear<a href=#about-gear class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=appendix>Appendix<a href=#appendix class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
+<h1 id=misc>Misc.<a href=#misc class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h1>
 </div>
 </main>
 <footer id=site-footer class="section-inner thin animated fadeIn faster">
