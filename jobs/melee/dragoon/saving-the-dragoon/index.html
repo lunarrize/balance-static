@@ -5,7 +5,7 @@
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <meta itemprop=name content="Dragoon Guide">
 <meta itemprop=description content="Saving The Dragoon Overview Dragoon is a very static melee dps Job. You have strict, long combos to execute and timers within those combos that need to be maintained. Unlike other Jobs - especially other melee - which rely upon a priority system for their basic GCD rotation, Dragoon instead has static buttons to press in a specific order with very little variance. Shadowbringers brings with it a new reliance on hitting proper positionals to trigger new skills.">
-<meta itemprop=wordCount content="4461">
+<meta itemprop=wordCount content="4401">
 <meta itemprop=keywords content><meta property="og:title" content="Dragoon Guide">
 <meta property="og:description" content="Saving The Dragoon Overview Dragoon is a very static melee dps Job. You have strict, long combos to execute and timers within those combos that need to be maintained. Unlike other Jobs - especially other melee - which rely upon a priority system for their basic GCD rotation, Dragoon instead has static buttons to press in a specific order with very little variance. Shadowbringers brings with it a new reliance on hitting proper positionals to trigger new skills.">
 <meta property="og:type" content="article">
@@ -485,34 +485,55 @@ This table also assumes that monsters will last the full (or most of the full) D
 <strong>Mouseover () macro</strong> if you play mouse and keyboard.</p>
 <p><strong>Soft targeting (up/down on d-pad) without a macro</strong> if you play with a controller.</p>
 <p>Different options are listed below, with varying degrees of usefulness/ease of use.</p>
-<table>
-<thead>
-<tr>
-<th>Mouseover Macro</th>
-<th>Mixed Macro</th>
-<th>One Specific Ally</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>/merror off/ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /micon &ldquo;Dragon Sight&rdquo;</td>
-<td>/merror off/ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; /ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/micon &ldquo;Dragon Sight&rdquo;</td>
-<td>/merror off/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/ac &ldquo;Dragon Sight&rdquo; &lt;2>/micon &ldquo;Dragon Sight&rdquo;</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Will simply place the tether onto your mouseover target. Just hover your mouse over the proper player in the party list and press the button and you cast it on the proper player. Optimal macro to use with mouse and keyboard.</td>
-<td>Mixes left with right to create a macro that would prioritize your mouseover target, but default to your preferred party list position/member. Useful if you don’t trust your ability to mouseover, but you should really just practice that and shift to the mouseover one instead, eventually.</td>
-<td>Specifically targets whoever is at position two. The number or party list can be altered as needed. Rather inflexible in use, but very consistent in execution.</td>
-</tr>
-</tbody>
-</table>
-<p></p>
-<p>For controller, I recommend learning to soft-target and dropping all reliance on macros.
+<h5 id=mouseover-macro>Mouseover Macro<a href=#mouseover-macro class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h5>
+<pre><code>/merror off
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/ac &quot;Dragon Sight&quot; &lt;mo&gt;
+/micon &quot;Dragon Sight&quot;
+</code></pre><h5 id=mixed-macro>Mixed Macro<a href=#mixed-macro class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h5>
+<pre><code>/merror off
+/ac &quot;Dragon Sight&quot;
+/ac &quot;Dragon Sight&quot;
+/ac &quot;Dragon Sight&quot;
+/ac &quot;Dragon Sight&quot;
+/ac &quot;Dragon Sight&quot;
+/ac &quot;Dragon Sight&quot;
+/ac &quot;Dragon Sight&quot;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/micon &quot;Dragon Sight&quot;
+</code></pre><h5 id=one-specific-ally>One Specific Ally<a href=#one-specific-ally class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h5>
+<pre><code>/merror off
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/ac &quot;Dragon Sight&quot; &lt;2&gt;
+/micon &quot;Dragon Sight&quot;
+</code></pre><p>For controller, I recommend learning to soft-target and dropping all reliance on macros.
 For keyboard/mouse, I recommend one to three specific ally macros for reliable friends and a mouseover as a backup (or primary, your call).</p>
 <hr>
 <h2 id=div-styletext-aligncentergearing-updiv>Gearing Up<a href=#div-styletext-aligncentergearing-updiv class=anchor aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 015 5 5 5 0 01-5 5h-3m-6 0H6a5 5 0 01-5-5 5 5 0 015-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg></a></h2>
